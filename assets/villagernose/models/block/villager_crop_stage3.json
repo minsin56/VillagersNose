@@ -1,0 +1,49 @@
+{
+  "textures": {
+    "particle": "villagernose:blocks/villager_crop/particles",
+
+    "nose_front": "villagernose:blocks/villager_crop/nose/nose_front_or_top",
+    "nose_side": "villagernose:blocks/villager_crop/nose/nose_side_or_bottom",
+
+    "nose_top": "villagernose:blocks/villager_crop/nose/nose_front_or_top",
+    "nose_bottom": "villagernose:blocks/villager_crop/nose/nose_side_or_bottom",
+
+    "head_up"   : "villagernose:blocks/villager_crop/head/head_up",
+    "head_down" : "villagernose:blocks/villager_crop/head/head_down",
+
+    "head_north": "villagernose:blocks/villager_crop/head/head_north",
+    "head_south": "villagernose:blocks/villager_crop/head/head_south",
+
+    "head_east" : "villagernose:blocks/villager_crop/head/head_east",
+    "head_west" : "villagernose:blocks/villager_crop/head/head_west"
+
+  },
+  "elements": [
+    {
+      "_comment": "Nose",
+      "from": [7, 4, 10],
+      "to": [9, 6, 14],
+      "faces": {
+        "south":  {"texture": "#nose_front"},
+        "north":  {"texture": "#nose_front"},
+        "up":     {"texture": "#nose_top"},
+        "down":   {"texture": "#nose_bottom"},
+        "west":   {"texture": "#nose_side"},
+        "east":   {"texture": "#nose_side"}
+      }
+    },
+    {
+      "_comment": "Head",
+      "from": [4, 0, 3],
+      "to": [12, 4, 13],
+      "faces": {
+        "up":     {"texture": "#head_up", "uv": [ 0, 0, 8, 10 ]},
+        "down":   {"texture": "#head_down", "uv": [ 0, 0, 8, 10 ], "cullface": "down"},
+        "north":  {"texture": "#head_north", "uv": [0, 4, 8, 8]},
+        "south":  {"texture": "#head_south", "uv": [0, 0, 8, 4]},
+        "east":   {"texture": "#head_east", "uv": [0, 0, 4, 10]},
+        "west":   {"texture": "#head_west", "uv": [4, 0, 8, 10]}
+      }
+    }
+  ]
+}

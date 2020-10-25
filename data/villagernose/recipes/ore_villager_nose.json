@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "  ",
+    " VO",
+    "  "
+  ],
+  "key": {
+    "O": {
+      "tag": "villagernose:nose_ore"
+    },
+    "V": {
+      "item": "villagernose:villager_nose"
+    }
+  },
+  "result": {
+    "item": "villagernose:super_villager_nose",
+    "count": 1
+  }
+}

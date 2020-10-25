@@ -1,0 +1,45 @@
+{
+  "parent": "block/block",
+  "textures": {
+    "particle": "villagernose:blocks/villager_crop/nose/nose_front_or_top",
+    "nose_front": "villagernose:blocks/villager_crop/nose/nose_front_or_top",
+    "nose_side": "villagernose:blocks/villager_crop/nose/nose_side_or_bottom",
+    "nose_top": "villagernose:blocks/villager_crop/nose/nose_front_or_top",
+    "nose_bottom": "villagernose:blocks/villager_crop/nose/nose_side_or_bottom"
+  },
+  "elements": [
+    {
+      "from": [
+        4,
+        0,
+        4
+      ],
+      "to": [
+        12,
+        16,
+        12
+      ],
+      "faces": {
+        "south": {
+          "texture": "#nose_front"
+        },
+        "north": {
+          "texture": "#nose_front"
+        },
+        "up": {
+          "texture": "#nose_top"
+        },
+        "down": {
+          "texture": "#nose_bottom",
+          "cullface": "down"
+        },
+        "west": {
+          "texture": "#nose_side"
+        },
+        "east": {
+          "texture": "#nose_side"
+        }
+      }
+    }
+  ]
+}

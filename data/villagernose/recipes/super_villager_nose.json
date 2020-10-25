@@ -1,0 +1,20 @@
+{
+  "type": "minecraft:crafting_shaped",
+  "pattern": [
+    "###",
+    "#V#",
+    "###"
+  ],
+  "key": {
+    "#": {
+      "item": "minecraft:emerald_block"
+    },
+    "V": {
+      "item": "villagernose:villager_nose"
+    }
+  },
+  "result": {
+    "item": "villagernose:super_villager_nose",
+    "count": 1
+  }
+}
